@@ -1,12 +1,10 @@
 import React from 'react'
 import Button from '../Button'
+import WinnerLoser from './WinnerLoser'
 
 function RightSide() {
   return (
-
-
-
-          <div className="flex-1">
+          <div className="flex-1 border border-red-600 flex-col h-screen">
               <div className="
               float-right
             w-[340px]
@@ -56,24 +54,9 @@ function RightSide() {
                           </a>
                       </div>
                       <div className="">
-                          <div className="
-                          border-b border-subText70
-                           onMount-appear-done onMount-enter-done">
-                              <a className="" href="/stocks/one-communications-ltd">
-                                  <div className="
-                                  text-base text-text tracking-tighter py-2 px-3 flex items-center justify-between
-                                  ">
-                                      <div className="tracking-[.16px]">Paytm</div>
-                                      <div className="font-medium flex flex-col items-end w-[110px]">
-                                          <span className="text-text text-base">₹854.75</span>
-                                          <span className="mt-[5px] flex font-[12px] text-primaryClr">
-                                              <span>48.00</span>
-                                              <span className="ml-5">(5.95%)</span>
-                                          </span>
-                                      </div>
-                                  </div>
-                              </a>
-                          </div>
+                          <WinnerLoser />
+                          <WinnerLoser />
+                          <WinnerLoser />
                       </div>
                   </div>
               </div>

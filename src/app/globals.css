@@ -7,3 +7,46 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+
+body {
+    background: #fff !important;
+    color: #44475b !important;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: Roboto,system-ui;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+@keyframes rodal-fade-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@media only screen and (min-width: 800px)
+.row .col.l12 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px)
+.row .col.l11, .row .col.l12 {
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+.row .col {
+    float: left;
+    box-sizing: border-box;
+    min-height: 1px;
+}

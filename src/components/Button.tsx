@@ -1,6 +1,11 @@
 import React from 'react'
 
-function Button() {
+interface ButtonProps{
+    text?:string
+}
+function Button({
+    text='Buy Now'
+}:ButtonProps) {
     return (
         <div className='
        w-full
@@ -29,7 +34,7 @@ function Button() {
         items-center
         justify-center
           '>
-              Buy Now
+              {text}
           </span>
         </div>
               

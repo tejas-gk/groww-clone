@@ -1,10 +1,11 @@
 import React from 'react'
 import Button from '../Button'
 import WinnerLoser from './WinnerLoser'
+import Image from 'next/image'
 
 function RightSide() {
   return (
-          <div className="flex-1 border border-red-600 flex-col h-screen">
+          <div className="flex-1 border flex-col h-screen">
               <div className="
               float-right
             w-[340px]
@@ -19,8 +20,11 @@ function RightSide() {
                    rounded-8 bg-primaryBg border border-border
                    onMount-appear-done onMount-enter-done">
                       <div className="lazyload-wrapper">
-                          <img className="" src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/stocks.f1bfa5c8.svg" width="180" height="190" alt="Groww" loading="lazy" />
-                      </div>
+                          <Image className="
+                            w-[180px] h-[190px] mx-auto
+                          " src="//assets-netstorage.groww.in/web-assets/billion_groww_desktop/prod/_next/static/media/stocks.f1bfa5c8.svg" width="180" height="190" alt="Groww" loading="lazy" />
+                    </div>
+                  <div className="text-[1.5rem] font-medium text-text mt-[24px] mb-[8px]">Want to invest in this stock?</div>
                       <div className="text-base leading-6 tracking-tighter font-[400px] text-subText">Open a free Demat account in minutes to start investing in stocks.</div>
                       <div className="
                         absolute

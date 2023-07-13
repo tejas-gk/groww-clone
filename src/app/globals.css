@@ -33,20 +33,3 @@ body {
   }
 }
 
-
-@media only screen and (min-width: 800px)
-.row .col.l12 {
-    width: 100%;
-}
-
-@media only screen and (min-width: 800px)
-.row .col.l11, .row .col.l12 {
-    margin-left: auto;
-    left: auto;
-    right: auto;
-}
-.row .col {
-    float: left;
-    box-sizing: border-box;
-    min-height: 1px;
-}

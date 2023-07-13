@@ -14,9 +14,9 @@ function Navbar() {
                   </div>
               </div>
               <div className="container max-w-[1110px] w-full mx-auto">
-                  <div className="col w-[33.33%] md:w-full max-w-full">
-                      <div className="col l4">
-                          <div className="col l12" style={{ minHeight: "81px" }}>
+                  <div className="w-[33.33%] md:w-full max-w-full">
+                      <div className="w-full mx-auto min-h-[1px] float-left">
+                          <div className="col l12 w-full ml-auto" style={{ minHeight: "81px" }}>
                               <div className="col l5 absolute-center hdGrowwLogoDiv">
                                   <div style={{ marginLeft: "-2px" }}>
                                       <a href="/#">
@@ -61,7 +61,7 @@ function Navbar() {
                                       <div style={{ minWidth: "115px", minHeight: "45px" }}>
                                           <div className="onMount-appear-done onMount-enter-done">
                                               <div className="">
-                                                  <Button />
+                                                  <Button text='Login/Register' />
                                               </div>
                                           </div>
                                       </div>
